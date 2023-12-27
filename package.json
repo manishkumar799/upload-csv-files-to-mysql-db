@@ -1,0 +1,21 @@
+{
+  "name": "csv-uploader",
+  "version": "1.0.0",
+  "description": "Node Script to upload CSV files into mySql Database",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node ./app.js"
+  },
+  "keywords": [
+    "CSV",
+    "Nodejs",
+    "mySql"
+  ],
+  "author": "Manish Kumar Pandit",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "mysql": "^2.18.1",
+    "utf8": "^3.0.0"
+  }
+}
